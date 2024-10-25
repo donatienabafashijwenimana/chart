@@ -1,0 +1,208 @@
+.top{
+    width: 78.7%;
+    height: 3pc;
+    border: solid blue 1px;
+    margin :0 auto;
+    display: flex;
+    padding: 0.5pc;
+    justify-items: center;
+    background-color: white;
+}
+.top .left,.right{
+    width: 2.7pc;
+    display: flex;
+    width: 50%;
+    justify-items: center;
+    
+    height: 2.7pc;
+}
+.top .left .userdata{
+    display: flex;
+    flex-direction: column;
+    gap:0pc;
+}
+.top .left .userdata small{
+   font-size: 0.7pc;
+   position: relative;
+}
+.top .left .userdata .username{
+    font-size: 1.5pc;
+    position: relative;
+ }
+.top .left img{
+    width: 2.5pc;
+    height: 2.5pc;
+    border-radius: 100%;
+
+}
+.top .right{
+    display: flex;
+    justify-content: end;
+}
+.top .right img{
+    width: 3pc;
+    height: 3pc;
+    border-radius: 100%;
+    float: right;
+
+}
+.container{
+    width: 80%;
+    height: 27pc;
+    margin: 0 auto;
+    background-color: rgb(210, 218, 226);
+    border: solid blue 1px;
+    display: flex;
+}
+.container .nav{
+    background-color: white;
+    height: 100%;
+    width: 5%;
+    border-right: solid blue 1px;
+    display: flex; flex-direction: column;
+    justify-items: center;
+    gap: 1pc;
+}
+.container .nav img{
+    width: 2pc;
+    height: 2pc;
+    border: 1px solid blue;
+    margin: 2px auto;
+    cursor: pointer;
+}
+.container .people{
+    width:30%;
+    height: 100%;
+    background-color: aliceblue;
+    border-right: solid blue 1px;
+    display: flex;
+    gap: 0.5pc;
+    flex-direction: column;
+}
+.container .people input{
+    margin: 1px auto;
+    outline:10px;
+    width: 98%;
+}
+
+.container .people .peoplelist{
+    display: flex;
+    flex-direction: column;
+    gap: 0.3pc;
+}
+.peoleitem:hover{
+    background-color: rgb(173, 173, 217);
+}
+.container .people .peoplelist .peoleitem{
+    display: flex;
+    height: 2.5pc;
+    padding: 0.4pc;
+    width: 95%;
+    /* background: black; */
+    justify-items: center;
+    margin: 0 auto;
+}
+
+a{
+    text-decoration: none;
+}
+
+.container .people .peoplelist .peoleitem img{
+    width: 2.5pc;
+    height: 2.5pc;
+    border-radius: 100%;
+}
+.peopleitemname{
+    font-size: 1.5pc;
+    color: black;
+    display: flex;
+    justify-items: center;
+    flex-direction: column;
+}
+.peopleitemname small{
+    /* display:inline-block; */
+    font-size: 0.8pc;
+    color: rgb(128, 128, 223);
+}
+.peopleitemname small .unread{
+    background-color: red;
+    border-radius: 100%;
+    color: white;
+    padding: 2px;
+}
+.message{
+    width: 65%;
+    display: flex;
+    flex-direction: column;
+}
+.message .messagearea{
+    width: 98%;
+    height: 100%;
+    max-height: 100%;
+    overflow-y: auto;
+    background-color: rgb(227, 210, 187);
+}
+.message .messagefield{
+    width: 97%;
+    margin: 1px auto;
+}
+.message .messagefield input{
+    width: 85%;
+    outline: none;
+    height: 2pc;
+}
+#send{
+    background-color: blue;
+    border:none;
+    color: white;
+    width: 10%;
+    cursor: pointer;
+    height: 2.3pc;
+}
+.messagearea2{
+    display: flex;
+    flex-direction: column;
+    gap: 2pc;
+    width: 100%;
+    /* background-color: aqua; */
+}
+.sendedmessage{
+    margin-right: 0.5pc;
+    background-color: black;
+    width: auto;
+    margin-top: 1pc;
+    padding: 0.5pc;
+    max-width: 50%;
+    max-width: 50%;
+    color: white;
+    align-self: self-end;margin-top: 1pc;
+    border-top-left-radius: 0.5pc;
+    border-bottom-right-radius: 0.5pc;
+    display: flex;
+    flex-direction: column;
+
+
+}
+.receivedmessage{
+    height: fit-content;
+    margin-left: 0.5pc;
+    background-color: white;
+    border-bottom-left-radius: 1pc;
+    border-top-right-radius: 1pc;
+    color: black;
+    width: fit-content;
+    margin-top: 1pc;
+    padding: 0.5pc;
+    max-width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+.at{
+    font-size: 0.8pc;
+    color: green;
+    padding: 1px;
+    align-self: self-end;
+    width: 100%;
+    margin-top: 0.5;
+    background-color: transparent;
+}

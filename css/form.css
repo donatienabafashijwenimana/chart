@@ -1,0 +1,94 @@
+.form,.formexp{
+    background-color: rgba(16, 14, 25, 0.412);
+    position: absolute;
+    top:4.5pc;
+    width: 100%;
+    height: 29pc;
+}
+.formu{
+    background-color: rgba(104, 104, 104, 0.566);
+    position: absolute;
+    top:4.5pc;
+    width: 100%;
+    height: 84%;
+}
+.close{
+    float: right;
+    background-color: rgb(141, 71, 71);
+    color: white;
+    padding: 0.1pc;
+    width: 1pc;
+    cursor: pointer;
+    text-align: center;
+    margin-bottom: 4px;
+}
+form {
+    width: 450px;
+    margin: 30px auto;
+    padding: 20px;
+    background-color: #d8d0d0;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
+   
+}
+
+label {
+    font-weight: bold;
+    margin-left: 0pc;
+    display: block;
+}
+
+
+/* Input styles */
+input[type="text"],
+input[type="password"],
+input[type="number"],
+select {
+    width: 92%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 1pc;
+}
+
+/* Select styles */
+select {
+    margin-top: 5px;
+}
+input[type= date],input[type= email],input[type=week]{
+    width: calc(100% - 20px);
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 1pc;
+}
+/* Submit button styles */
+input[type="submit"] {
+    width: 100%;
+    background-color: black;
+    font-size: medium;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+input[type=radio]{
+}
+input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+/* Link styles */
+a {
+    display: block;
+    text-align: center;
+    margin-top: 10px;
+    color: #007bff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
